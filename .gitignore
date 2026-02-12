@@ -1,0 +1,35 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Docker / local data
+postgres_data/
